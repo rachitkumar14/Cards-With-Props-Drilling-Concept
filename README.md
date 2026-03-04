@@ -1,3 +1,3 @@
 ## Project Preview
 
-![Project Screenshot]('./public/Project Screenshot/ProjectScreenshot.png')
+![Project Screenshot]('./public/Screenshots/ProjectScreenshot.png')
