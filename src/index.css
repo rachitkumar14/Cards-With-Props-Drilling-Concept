@@ -1,0 +1,54 @@
+*{
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+  color: darkgoldenrod;
+
+}
+
+.parent{
+ border: whitesmoke 2px solid;
+ display: flex;
+gap: 50px;
+justify-content: center;
+
+ flex-wrap: wrap;
+ margin: 20px;
+ padding: 4px;
+}
+.userFollower,.userLikes{
+  display: flex;
+  gap: 5px;
+}
+
+.card{
+  border: black 2px solid;
+  
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ .card .user-image img{
+  border-radius: 20px;
+  background-size: cover;
+  width: 100%;
+}
+ .follow-button{
+ padding: 8px 8px 4px 8px ;
+ margin-top: -10px;
+  border-radius: 20px;
+display: flex;
+  font-size: 20px;
+  cursor: pointer;
+
+
+}
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+}
